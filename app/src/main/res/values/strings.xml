@@ -17,6 +17,7 @@
     <string name="gHangedText">HANGED MAN</string>
     <string name="gTriesText">Number of Tries Left:</string>
     <string name="gSubmitButton">SUBMIT</string>
+    <string name="gRestartButton">Restart</string>
 
 
     <string name="BackButton">Back</string>
