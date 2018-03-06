@@ -6,4 +6,17 @@
     <string name="mQuitButton">Quit</string>
 
     <string name="mTitleText">HANGMAN</string>
+
+
+
+    <string name="oDiffText">Difficulty: </string>
+    <string name="oClearButton">Clear Score</string>
+    <string name="oScoreText">Score: </string>
+    <string name="oTriesText">Number of Tries: </string>
+    <string name="oEasyRadio">Easy</string>
+    <string name="oMediumRadio">Medium</string>
+    <string name="oHardRadio">Hard</string>
+
+
+    <string name="BackButton">Back</string>
 </resources>
