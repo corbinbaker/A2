@@ -67,8 +67,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:editable="true"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:text="@string/maxTries" />
         </LinearLayout>
 
         <Button
@@ -96,15 +98,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/oScoreText" />
+                    android:text="@string/ScoreText" />
 
                 <EditText
                     android:id="@+id/oScore"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:editable="false"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:text="@string/Score" />
             </LinearLayout>
 
             <Button

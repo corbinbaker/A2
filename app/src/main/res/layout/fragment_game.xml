@@ -85,22 +85,26 @@
 
             <EditText
                 android:id="@+id/gTries"
-                android:layout_width="wrap_content"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="0"
+                android:editable="false"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:text="@string/Tries" />
 
         </LinearLayout>
 
-        <TextView
+        <EditText
             android:id="@+id/gChar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0"
+            android:editable="true"
             android:gravity="center_horizontal"
-            android:padding="10dp"
-            android:text="TextView" />
+            android:hint="@string/gCharHint"
+            android:inputType="textCapCharacters"
+            android:padding="10dp" />
 
         <Button
             android:id="@+id/gSubmitButton"
@@ -109,6 +113,31 @@
             android:layout_weight="0"
             android:padding="10dp"
             android:text="@string/gSubmitButton" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/gScoreText"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/ScoreText" />
+
+            <TextView
+                android:id="@+id/gScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="@string/Score" />
+        </LinearLayout>
 
     </LinearLayout>
 

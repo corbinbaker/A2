@@ -8,7 +8,7 @@
 
     <string name="oDiffText">Difficulty: </string>
     <string name="oClearButton">Clear Score</string>
-    <string name="oScoreText">Score: </string>
+
     <string name="oTriesText">Number of Tries: </string>
     <string name="oEasyRadio">Easy</string>
     <string name="oMediumRadio">Medium</string>
@@ -18,7 +18,12 @@
     <string name="gTriesText">Number of Tries Left:</string>
     <string name="gSubmitButton">SUBMIT</string>
     <string name="gRestartButton">Restart</string>
+    <string name="gCharHint">Guess Your Letter Here</string>
 
+    <string name="Tries">10</string>
+    <string name="maxTries">10</string>
+    <string name="Score">0</string>
+    <string name="ScoreText">Score: </string>
 
     <string name="BackButton">Back</string>
 </resources>
