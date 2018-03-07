@@ -16,21 +16,34 @@ public class MenuFragment extends Fragment {
     private Button mOButton;
     private Button mQButton;
 
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-
-    }
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_menu, container, false);
 
         mNGButton = (Button)v.findViewById(R.id.mNewGameButton);
+        mNGButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v)
+            {
+
+            }
+        });
+
         mOButton = (Button)v.findViewById(R.id.mOptionsButton);
+        mOButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v)
+            {
+
+            }
+        });
+
         mQButton = (Button)v.findViewById(R.id.mQuitButton);
+        mQButton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v)
+            {
+                System.exit(0);
+            }
+        });
 
         return v;
     }
